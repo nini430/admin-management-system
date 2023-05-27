@@ -1,10 +1,9 @@
 import styled from 'styled-components'
-import {Input} from '@mui/material'
+import {TextField} from '@mui/material'
 
-const StyledInput=styled(Input)`
+const StyledInput=styled(TextField)`
     padding:3px;
     border-radius:5px;
-    min-width:400px;
 `
 
 export default StyledInput;
